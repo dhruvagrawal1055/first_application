@@ -16,27 +16,27 @@ function App() {
       id: 'e1',
       title: "Faltu",
       amount: 250,
-      date:new Date()
+      date: new Date()
     },
     {
       // id: e2,
       title: "Faltu2",
       amount: 500,
-      date:new Date()
+      date: new Date()
     },
     {
       // id: e3,
       title: "Faltu3",
       amount: 156,
-      date:new Date()
+      date: new Date()
     },
     {
       // id: e4,
       title: "Faltu4",
       amount: 106,
-      date:new Date()
+      date: new Date()
     }
-    
+
   ]
   return (
     // <div className="App">
@@ -57,9 +57,9 @@ function App() {
     // </div>
     // <Card>
     <div className="background3">
-      {/* <div className="App-header">
+      <div className="App-header">
         <h1>Hello World</h1>
-      </div> */}
+      </div>
       {/* <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt esse ipsa
         quos reiciendis error nobis magni quidem libero, nisi doloremque est,
@@ -79,13 +79,13 @@ function App() {
         quos ducimus totam, voluptates error distinctio vitae sequi reiciendis
         recusandae dicta omnis obcaecati molestias odit?
       </p> */}
-      {/* <ExpenseItem></ExpenseItem> */}
-      {/* <ExpenseItem title = {expense[0].title} amount = {expense[0].amount} date = {expense[0].date.toISOString()}></ExpenseItem>
-      <ExpenseItem title = {expense[1].title} amount = {expense[1].amount} date = {expense[1].date.toISOString()}></ExpenseItem>
-      <ExpenseItem title = {expense[2].title} amount = {expense[2].amount} date = {expense[2].date.toISOString()}></ExpenseItem>
-    <ExpenseItem title = {expense[3].title} amount = {expense[3].amount} date = {expense[3].date.toISOString()}></ExpenseItem> */}
-      <Navbar></Navbar>
-      
+      <ExpenseItem></ExpenseItem>
+      <ExpenseItem title = {expenselist[0].title} amount = {expenselist[0].amount} date = {expenselist[0].date.toISOString()}></ExpenseItem>
+      <ExpenseItem title = {expenselist[1].title} amount = {expenselist[1].amount} date = {expenselist[1].date.toISOString()}></ExpenseItem>
+      <ExpenseItem title = {expenselist[2].title} amount = {expenselist[2].amount} date = {expenselist[2].date.toISOString()}></ExpenseItem>
+    <ExpenseItem title = {expenselist[3].title} amount = {expenselist[3].amount} date = {expenselist[3].date.toISOString()}></ExpenseItem>
+      {/* <Navbar></Navbar> */}
+
       {/* <Expenses expence = {expenselist}></Expenses> */}
     </div>
     /* </Card> */
